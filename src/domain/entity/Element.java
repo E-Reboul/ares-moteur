@@ -1,9 +1,9 @@
 class Element {
 
-    public double id;
-    public double x;
-    public double y;
-    public Color color;
+    private double id;
+    private double x;
+    private double y;
+    private Color color;
 
     Element(double id, double x, double y, Color color) {
         this.id = id;
@@ -12,5 +12,19 @@ class Element {
         this.color = color;
     }
 
+    public getId() {
+        return this.id;
+    }
     
+    public getX() {
+        return this.x;
+    }
+
+    public getY() {
+        return this.y;
+    }
+
+    public getColor() {
+        return this.color;
+    }
 }
